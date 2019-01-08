@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.primergrup{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.amenu{
+    min-width: 300px;
+    background-color: orange;
+    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border: 1px solid red;
+}
+.amenu:hover{
+    background-color: blue;
+}
+.segongrup{
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.tercergrup{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.articlesgrup{
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.arti{
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.articles{
+    flex: 40%;
+    min-width: 200px;
+    background-color: aqua;
+    float: left;
+    margin: 10px;
+}
+.articles:hover{
+    background-color: teal;
+}
+.articlegran{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article{
+    width: 70%;
+    background-color: dimgrey;
+}
+aside{
+    flex: 30%;
+    min-width: 200px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+.articles2{
+    flex: 50%;
+    min-width: 150px;
+    background-color: orchid;
+    margin: 10px;
+}
+.articles2:hover{
+    background-color: teal;
+}
+.imatges{
+    width: 80%;
+    height: 300px;
+}
+.quartgrup{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer{
+    width: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lletresfooter{
+    color: white;
+}
