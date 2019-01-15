@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 h1{
     color: red;
@@ -34,6 +35,9 @@ aside{
     align-content: space-around;
     justify-content: center;
     text-align: center;
+}
+.container{
+    margin-top: 10px;
 }
 .segongrup{
     display: flex;
