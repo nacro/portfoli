@@ -28,3 +28,17 @@
     background-color: orange;
     border-radius: 30px;
 }
+.resum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.descripcio{
+    background-color: whitesmoke;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+h1{
+    color: red;
+}
